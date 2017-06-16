@@ -30,7 +30,7 @@
 （1）	画一个圆
 （2）	画一个三角形
 （3）	画出3条线互相平行
-（4）	话一个星星
+（4）	画一个星星
 
 4.	CSS 请写出清除浮动的CSS（尽量写出IE 系列的兼容写法）
 
@@ -39,7 +39,7 @@
 6.	按照JQUERY 的初始化，请填写如下，为什么这么传递？什么版本采用的？
 (function(              ) {})(jQuery)
 
-7.	请简述如何创建一个异步流程的过程，需要标示出每一步的状态，已经如何处理。
+7.	请简述如何创建一个异步流程的过程，需要标示出每一步的状态，以及如何处理。
 
 8.	请写出如下正则，URL以 http://www.jcloud开头
 后面跟/xxx 最多可以跟256级，每一级包含大写小写(或中文可忽略)，开头不可以为-_
@@ -48,11 +48,11 @@ http://www.jcloud /xxx/xxxx.com
 
 9.	 请写出一些 jquery 的工具函数，$.
 
-10.	 请写出JS的数据类型，请写出如判断JS类型的方案
+10.	 请写出JS的数据类型，请写出如何判断JS类型的方案
 
-11.	 请描述BFC，以及可以出发BFC的条件
+11.	 请描述BFC，以及可以触发BFC的条件
 
-12.	 请写出 IIFE，以及常用的可以出发IIFE的前缀
+12.	 请写出 IIFE，以及常用的可以触发IIFE的前缀
 
 13.	请写出前端观察者模式的CODE
 
@@ -79,17 +79,17 @@ http://www.jcloud /xxx/xxxx.com
 
 24.	描述call, apply ,bind的作用，请问其中哪些可以被ES6语法替代
 
-25.	是否使用过 EXPRESS，KOA，请实写E下的自定义中间件
+25.	是否使用过 EXPRESS，KOA，请试写E下的自定义中间件
 如果使用KOA+CO请试分析CO原理，如果使用ASYNC/AWAIT请完成
 相关流程DEMO
 
 26.	试写UMD 模型
 
-27.	简述箭筒函数，简述LET，简述CONST,简述require 和 IMPORT 问题
+27.	简述箭头函数，简述LET，简述CONST,简述require 和 IMPORT 问题
 
 28.	请写出ES6的decoraton, 实现调用函数打印出调用
 @logxxx()
-Function() {}  请问这么用是否有问题，如果有请问咋么修改。
+Function() {}  请问这么用是否有问题，如果有请问怎么修改。
 
 29.	解决ES6 中CLASS 多继承
 
@@ -103,8 +103,8 @@ Function() {}  请问这么用是否有问题，如果有请问咋么修改。
 
 33.	Sass less试写一个媒体查查询的CSS 3类中宽度
 最宽的情况下使用FLEXBOX布局，横轴顺序排列，纵轴居中排列
-中宽情况下使用FLEXBOX布局，横轴顺序排列，纵轴居从上往下顺寻排列
-小宽情况下使用FLEXBOX布局，横轴顺序排列，纵轴居从下往上顺寻排列
+中宽情况下使用FLEXBOX布局，横轴顺序排列，纵轴居从上往下顺序排列
+小宽情况下使用FLEXBOX布局，横轴顺序排列，纵轴居从下往上顺序排列
 （请试增加横轴的的倒序）
 
 34.	请说出javascript for in的用法，要注意什么？
@@ -131,7 +131,7 @@ Function() {}  请问这么用是否有问题，如果有请问咋么修改。
 
 45.	Shift unshift  push pop 后数组什么样子。
 
-46.	快速清空数组方法，是比较或者说出那些方案比较快速。
+46.	快速清空数组方法，试比较或者说出哪些方案比较快速。
 
 47.	解释如下META
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -149,17 +149,17 @@ Function() {}  请问这么用是否有问题，如果有请问咋么修改。
 
 52.	请简述REACT子组件如何通知父组件
 
-53.	请写出高阶组建
+53.	请写出高阶组件
 
 54.	请CODE下VUE的指令，随意实现
 
 55.	解释REM布局
 
-56.	请写出过度和动画的区别和CSS
+56.	请写出过渡和动画的区别和CSS
 
-57.	请使用JQUERY的 DEFERRED 对象完成PROMISE，请说明那些版本下有那些问题。
+57.	请使用JQUERY的 DEFERRED 对象完成PROMISE，请说明哪些版本下有那些问题。
 
-58.	了解NODEJS 8.0么 请问util.promisify()，那些库有类似用法
+58.	了解NODEJS 8.0么 请问util.promisify()，哪些库有类似用法
 
 59.	如何使用时间戳创建TIME对象
 
@@ -200,7 +200,7 @@ Function() {}  请问这么用是否有问题，如果有请问咋么修改。
 
 76.	请用try cache 实现一个LET兼容实现
 
-77.	History replacehistor 接受那些参数，第二个参数是什么意思
+77.	History replacehistor 接受哪些参数，第二个参数是什么意思
 
 78.	 删除数组内地2-4个内容，并插入新内容S到删除内容除
 
@@ -208,7 +208,7 @@ Function() {}  请问这么用是否有问题，如果有请问咋么修改。
 
 80.	Node 如何设置开发模式和生产模式
 
-81.	请写出一些packge.json的内容
+81.	请写出一些package.json的内容
 
 82.	请写出.bable内容
 
