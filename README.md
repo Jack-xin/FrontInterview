@@ -1,28 +1,28 @@
-X	Y	==	===	Object.is
-undefined	undefined			
-null	null			
-true	true			
-false	false			
-‘test’	‘test’			
-0	0			
-+0	-0			
-0	false			
-“”	-false			
-“”	0			
-‘0’	0			
-‘1’	1			
-[1,2]	“1,2”			
-New string(“test”)	“test”			
-Null-	undefined			
-Null-	false			
-undefined-	false			
-{test:”1”}	{test:”1”}			
-New string(“test”)	New string(“test”)			
-0	null			
-0	NAN			
-“test”	NAN			
-NAN	NAN			
 1.	填请按照内容填写表格
+----
+| X                          | Y                          | =     | ==     | Object.is     |
+| -------------------------- |:--------------------------:|:-----:|:------:|-------------:|
+| undefined                  | undefined                  |       |        |              |
+| null                       | null                       |       |        |              |
+| true                       | true                       |       |        |              |
+| false                      | false                      |       |        |              |
+| ‘test’                     | ‘test’                     |       |        |              |
+| 0                          | 0                          |       |        |              |
+| +0                         | -0                         |       |        |              |
+| ""                         | false                      |       |        |              |
+| ""                         | 0                          |       |        |              |
+| '0'                        | false                      |       |        |              |	
+| '1'                        | 1                          |       |        |              |
+| [1,2]                      | “1,2”                      |       |        |              |
+| New string (“test”)| “1,2” |                            |       |        |              |
+| Null                       | undefined                  |       |        |              |
+| Null                       | false                      |       |        |              |	
+| {test:”1”}                 | {test:”1”}                 |       |        |              |
+| New string(“test”)         | New string(“test”)         |       |        |	          |
+|0                           | null                       |       |        |              |
+|0                           | NAN                        |       |        |              |
+|"test"                      | NAN                        |       |        |              |
+|NAN                         | NAN                        |       |        |              |
 
 2.	CSS请试写出垂直水平居中（尽可能写出比较多的方式）
 
